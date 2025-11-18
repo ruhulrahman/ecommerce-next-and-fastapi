@@ -1,0 +1,11 @@
+fastapi[standard]
+uvicorn[standard] # ASGI server
+sqlalchemy         # ORM
+alembic          # optional for DB migrations.
+psycopg2-binary  # for Postgres (or use async driver if using async db)
+pydantic
+passlib[bcrypt] # secure password hashing.
+python-jose[cryptography]  # for JWT creation/validation
+httpx             # async http requests (for calling OpenAI). to call external AI APIs asynchronously.
+python-dotenv
+mysqlclient # Install MySQL driver (required) for faster MySQL performance
